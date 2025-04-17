@@ -1,0 +1,16 @@
+{
+    "name": "pauls/affiliate_store",
+    "require": {
+        "openai/openai": "dev-main",
+        "openai-php/client": "dev-main",
+        "symfony/http-client": "7.3.x-dev",
+        "nyholm/psr7": "^1.8@dev",
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
